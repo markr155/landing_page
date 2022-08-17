@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 64px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+}
+
+.intro {
+
+    display: flex;
+}
+
+.intro,
+.header,
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+.information {
+    display: flex; 
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;    
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-section {
+    display: flex;
+
+}
+.signup-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
